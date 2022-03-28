@@ -19,6 +19,3 @@ jobs:
         role-session-name: oidc_test_role
         aws-region: us-east-1
 
-    - name: Copy files to the test website with the AWS CLI
-      run: |
-        aws s3 sync . s3://my-s3-test-website-bucket
